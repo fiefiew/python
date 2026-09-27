@@ -1,3 +1,3 @@
 # python
-something stupid
+something stupid.
 u should not be looking at my bad code
