@@ -156,6 +156,7 @@ elif ase == 2:
 else:
     print("you chose wrong you die")
     die()
+    input()
     quit()
 print("Welcome to the cave")
 print("")
@@ -197,6 +198,7 @@ if yes == 2:
 else:
     print("you went home")
     home()
+    input()
     quit() 
 
 while i < 4:
@@ -220,6 +222,7 @@ while i < 4:
             if ase == 1:
                 print("the monster bashes your skull and you die")
                 die()
+                input()
                 quit()
             else:
                 print("you succesfully kill the monster from long range")
@@ -232,6 +235,7 @@ while i < 4:
     else:
         print("you chose wrong you die")
         die()
+        input()
         quit()
 o = 1
 while o < 4:
@@ -272,26 +276,32 @@ while o < 4:
                 elif suunta == 1:
                     print("you went onwards and never found exit you died.")
                     die()
+                    input()
                     quit()
                 else:
                     print("you chose wrong you die")
                     die()
+                    input()
                     quit()
             elif suunta == 1:
                 print("you went onwards and never found exit you died")
                 die()
+                input()
                 quit()
             else:
                 print("you chose wrong you died")
                 die()
+                input()
                 quit()
         elif suunta == 1:
             print("you continued on your tracks forever and ended up dead")
             die()
+            input()
             quit()
         else:
             die()
             print("you chose wrong you died")
+            input()
             quit()
     elif v2 == 2:
         print("you walked around it and nothing happened")
@@ -301,6 +311,7 @@ while o < 4:
     else:
         print("you chose wrong you died")
         die()
+        input()
         quit()
             
 print("you enter a grand space that beholds piles upon piles of gold")
@@ -317,6 +328,7 @@ if decision == 1:
     print("youre poor")
     home()
     print("thank you for playing")
+    input()
     quit()
 elif decision == 2:
     print("you try taking the dragon head on")
@@ -334,10 +346,12 @@ elif decision == 2:
         print("you will never see your family again")
         die()
         print("goodbye")
+        input()
         quit()
 else:
     print("you chose wrong you lost the game")
     die()
+    input()
     quit()
 
 
